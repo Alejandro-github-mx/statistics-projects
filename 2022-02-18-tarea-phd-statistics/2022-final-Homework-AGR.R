@@ -26,7 +26,10 @@ View(CropsNitrox)
 summary(CropsNitrox)
 
 
-## 7. Exporte CropsNitrox dataset
+## 7. Export CropsNitrox dataset
 write.csv(CropsNitrox, 
           "C:\\Users\\USER\\Documents\\Desarrollador\\PYTHON\\2021-Python-exercises\\statistics-projects\\CropsNitrox.csv",
           row.names = TRUE)
+
+
+getwd()
